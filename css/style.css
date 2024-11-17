@@ -1,3 +1,6 @@
+.image-name {
+    display: block;
+}
 .head-full {
     border-bottom: 1px solid #e7e9fc ;
     display: flex;
@@ -44,6 +47,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: block;
+    margin-bottom: 16px;
 }
 .studio-text {
     color: #f4f4fd; 
@@ -56,7 +61,7 @@
 }
 .section-one {
     background-color: #2e2f42;
-    padding: 188px;
+    padding: 188px 0;
 }
 #section-one-container {
     padding: 188px;
@@ -95,7 +100,7 @@
 }
 .section-two {
     display: block ;
-    padding: 120px;
+    padding: 188px 0;
 }
 .ul-aboutus{
     display: flex;
@@ -149,17 +154,20 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.MarkGuerrero {
+.Mark-Guerrero {
     padding: 32px 0;
 }
-.TomFord {
+.Tom-Ford {
     padding: 32px 0;
 }
-.CamilaGarcia {
+.Camila-Garcia {
     padding: 32px 0;
 }
-.DanielWilson {
+.Daniel-Wilson {
     padding: 32px 0;
+}
+.section-four{
+    padding: 120px 0;
 }
 .work-do {
     font-size: 16px;
@@ -186,6 +194,7 @@
 }
 .work-name {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 .what-do {
     font-size: 20px;
