@@ -1,9 +1,18 @@
-.image-name {
-    display: block;
+body {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 .head-full {
     border-bottom: 1px solid #e7e9fc ;
-    display: flex;
+    display: flex;}
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0.15px;
@@ -18,10 +27,12 @@
 .ul-link-header {
     display: flex;
     gap: 40px;
+    padding: 24px;
 }
 .ul-address-mail-tel {
     display: flex;
     gap: 40px;
+    padding: 24px;
 }
 .address-mail-tel {
     font-style: normal;
@@ -47,8 +58,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: block;
-    margin-bottom: 16px;
+    display: inline-block;
+    margin-bottom: 76px;
 }
 .studio-text {
     color: #f4f4fd; 
@@ -100,7 +111,10 @@
 }
 .section-two {
     display: block ;
-    padding: 188px 0;
+    padding: 120px 0;
+}
+.about-us {
+    visibility: hidden;
 }
 .ul-aboutus{
     display: flex;
@@ -145,6 +159,7 @@
     background-color: #f4f4fd;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    display: block;
 }
 .person-name {
     background-color: #FFFFFF;
@@ -153,6 +168,8 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .Mark-Guerrero {
     padding: 32px 0;
@@ -194,7 +211,6 @@
 }
 .work-name {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
 }
 .what-do {
     font-size: 20px;
@@ -214,30 +230,35 @@
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 .CashlessPayment {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;    
+    margin-bottom: 8px;   
+    width: calc((100% - 72px) / 4); 
 }
 .MeditationApp {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;    
+    margin-bottom: 8px;   
+    width: calc((100% - 72px) / 4); 
 }
 .TaxiService {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;      
+    margin-bottom: 8px;  
+    width: calc((100% - 72px) / 4);    
 }
 .ScreenIllustrations {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;     
+    margin-bottom: 8px;   
+    width: calc((100% - 72px) / 4);  
 }
 .information-footer {
     background-color: #2e2f42;
