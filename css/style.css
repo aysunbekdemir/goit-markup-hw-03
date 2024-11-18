@@ -10,10 +10,7 @@ img {
     padding: 0 15px;
     display: flex;
 }
-header div div nav-container-left {
-    display: flex;
-}
-.head-link {
+.header-link {
     display: flex;
     align-items: center;
 }
@@ -24,6 +21,9 @@ header div div nav-container-left {
 .li-link-header {
     padding: 24px 0;
 }
+.link-header{
+    margin-right: 76px;
+} 
 .l-address-mail-tel {
     display: flex;
     gap: 40px;
