@@ -1,17 +1,6 @@
 img {
     display: block;
   }
-body {
-    width: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
-}
-header {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
 .head-full {
     border-bottom: 1px solid #e7e9fc ;
     display: flex;}
@@ -21,25 +10,23 @@ header {
     padding: 0 15px;
     display: flex;
 }
-.nav-container-left {
+header div div nav-container-left {
     display: flex;
 }
 .head-link {
     display: flex;
     align-items: center;
 }
-.link-header {
-    margin-right: 76px;
-}
 .ul-link-header {
-    display: flex;
     gap: 40px;
-    padding: 24px;
+    display: flex;
 }
-.ul-address-mail-tel {
+.li-link-header {
+    padding: 24px 0;
+}
+.l-address-mail-tel {
     display: flex;
     gap: 40px;
-    padding: 24px;
 }
 .address-mail-tel {
     font-style: normal;
@@ -67,6 +54,7 @@ header {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 76px;
+    margin-right: 76px;
 }
 .studio-text {
     color: #f4f4fd; 
@@ -120,10 +108,22 @@ header {
     display: block ;
     padding: 120px 0;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .ul-aboutus{
     display: flex;
     gap: 24px;
-    width: calc((100%-72) / 4);
+    width: calc((100%-72)/4);
 }
 .aboutus-head {
     font-size: 20px;
@@ -156,11 +156,11 @@ header {
 .ul-our-team{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
 }
 .image-name {
     background-color: #f4f4fd;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
     display: block;
 }
@@ -211,7 +211,7 @@ header {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
 }
 .work-name {
     background-color: #FFFFFF;
