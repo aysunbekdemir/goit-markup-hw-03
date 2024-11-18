@@ -8,7 +8,6 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
 }
 .header-link {
     display: flex;
@@ -24,7 +23,7 @@ img {
 .link-header{
     margin-right: 76px;
 } 
-.l-address-mail-tel {
+.ul-address-mail-tel {
     display: flex;
     gap: 40px;
 }
@@ -53,8 +52,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 76px;
-    margin-right: 76px;
+    margin-bottom: 16px;
 }
 .studio-text {
     color: #f4f4fd; 
@@ -123,7 +121,7 @@ img {
 .ul-aboutus{
     display: flex;
     gap: 24px;
-    width: calc((100%-72)/4);
+    width: calc((100%-72px)/4);
 }
 .aboutus-head {
     font-size: 20px;
@@ -156,11 +154,11 @@ img {
 .ul-our-team{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px)/4);
+    width: calc((100%-72px)/4);
 }
 .image-name {
     background-color: #f4f4fd;
-    width: calc((100% - 72px)/4);
+    width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
     display: block;
 }
@@ -211,7 +209,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 72px)/4);
+    width: calc((100%-72px)/4);
 }
 .work-name {
     background-color: #FFFFFF;
