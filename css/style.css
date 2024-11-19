@@ -9,7 +9,7 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
-header div container {
+.container-div-header {
     display: flex;
 }
 .header-link {
@@ -32,6 +32,9 @@ header div container {
 }
 .address-mail-tel {
     font-style: normal;
+}
+.mail {
+    padding: 24px 0;
 }
 .body {
     font-family: "Roboto", sans-serif;
@@ -57,6 +60,9 @@ header div container {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+}
+.logo {
+    margin-right: 76px
 }
 .studio-text {
     color: #f4f4fd; 
@@ -175,10 +181,12 @@ header div container {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .div-person {
     text-align: center;
     margin-bottom: 8px;
+    padding: 32px 0;
 }
 .section-four{
     padding: 120px 0;
